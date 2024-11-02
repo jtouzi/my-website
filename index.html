@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.jtouzi.net" />
+    <title>Jibril Touzi</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold">Jibril Touzi</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:text-indigo-600">Home</a>
+                <a href="#about" class="hover:text-indigo-600">About</a>
+                <a href="#skills" class="hover:text-indigo-600">Skills</a>
+                <a href="#projects" class="hover:text-indigo-600">Projects</a>
+                <a target="_blank" href="https://blog.jtouzi.net" class="hover:text-indigo-600">Blog</a>
+                <a href="#contact" class="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">Contact</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-900 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+        <nav class="px-6 py-4">
+            <a href="#home" class="block py-2">Home</a>
+            <a href="#about" class="block py-2">About</a>
+            <a href="#skills" class="block py-2">Skills</a>
+            <a href="#projects" class="block py-2">Projects</a>
+            <a target="_blank" href="https://blog.jtouzi.net" class="hover:text-indigo-600">Blog</a>
+            <a href="#contact" class="block py-2 bg-indigo-600 text-white rounded">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center">
+        <div class="w-full md:w-2/3 mb-6 md:mb-0">
+            <h1 class="text-5xl" style="line-height: 1.5">Hi.<br>I am a <em>Principal Cloud Architect and Site Reliability Engineer</em> based in Dallas, Texas.</h1>
+            <!--
+            <p class="mt-4 text-lg">Welcome! I'm a seasoned web developer dedicated to crafting engaging online experiences. With a passion for clean, efficient code and a keen eye for design, I specialize in bringing ideas to life through responsive and dynamic websites. </p>
+            <a target="_blank" href="#contact" class="mt-6 inline-block bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700">Contact Me</a>
+            -->
+            <div class="container mx-auto px-6 flex justify-center space-x-6">
+            <a target="_blank" href="https://x.com/jtouzi"><img src="assets/img/twitterx.png" alt="Find me on X" width="30"></a>
+            <a target="_blank" href="https://linkedin.com/in/jtouzi"><img src="assets/img/linkedin.png" alt="Find me on LinkedIn" width="30"></a>
+            <a target="_blank" href="https://instagram.com/jtouzi"><img src="assets/img/instagram.png" alt="Find me on Instagram" width="30"></a>
+            <a target="_blank" href="https://github.com/jtouzi"><img src="assets/img/github.png" alt="Find me on GitHub" width="30"></a>
+            <a target="_blank" href="https://www.tiktok.com/@jtouzi"><img src="assets/img/tiktok.png" alt="Find me on TikTok" width="30"></a>
+            <a target="_blank" href="https://t.me/jtouzi"><img src="assets/img/telegram.png" alt="Find me on Telegram" width="30"></a>
+        </div>
+        </div>
+        <div class="w-full md:w-1/2 mt-6 md:mt-0 md:ml-6">
+            <img src="assets/img/jtouzi_portrait.webp" alt="Jibril Touzi" class="w-full md:w-4/5 h-4/5 rounded-lg shadow-lg">
+        </div>
+        
+    </section>
+
+    <section class="bg-white py-12">
+        <div class="container mx-auto px-6">
+            <h2 id="about" class="text-3xl font-bold text-center mb-6">About me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                        <img align="center" width="" src="assets/img/jibril_during_presentation.webp" alt="During a presentation at an AWS Event" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <div class="mt-2 text-lg text-left" style="line-height:2; vertical-align:middle"><p>Greetings! I am Jibril, a technology leader with 15+ years of experience driving enterprise digital transformation. Expert in cloud architecture, observability, and security, specializing in building resilient, observable systems at scale.</p><p>Proven track record helping Fortune 500 companies optimize cloud operations and costs while improving reliability and performance. Recent focus on implementing enterprise-grade generative AI solutions and establishing modern observability practices. Skilled at translating complex business challenges into innovative technical solutions, with emphasis on cloud-native architectures and operational excellence.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6">
+            <h2 id="skills" class="text-3xl font-bold text-center mb-6">What I am awesome at</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Cloud Architecture & Security</h3>
+                    <p>Designing scalable, resilient, and secure cloud infrastructures across multi-cloud environments. Expertise in securing cloud-native applications while optimizing performance and cost-efficiency.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Technical Leadership & Strategic Thinking</h3>
+                    <p>Driving cross-functional teams to deliver high-impact solutions while aligning technical efforts with business goals. Strong focus on mentoring, guiding technical roadmaps, and fostering innovation.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Generative AI & Innovation</h3>
+                    <p>I explore and leverage generative AI technologies to enhance automation, improve efficiency, and drive innovation. I'm passionate about finding new ways to leverage AI to solve complex technical challenges.</p>
+                </div>
+            </div><br>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Site Reliability Engineering (SRE)</h3>
+                    <p>Implementing automation, monitoring, and incident response practices to ensure service reliability and uptime. Focused on building self-healing systems and reducing operational toil through effective SRE practices.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Observability & Monitoring</h3>
+                    <p>Building comprehensive observability strategies to monitor, trace, and log distributed systems. Ensuring proactive detection of issues and performance optimization through real-time metrics and insights.</p>
+                </div>
+                <div class="bg-white shadow-md p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Scripting & Automation</h3>
+                    <p>Develop automation scripts and tools using languages like Python, Node.js, Bash, and Go to streamline operations and improve efficiency. Automate tasks, manage infrastructure, and enhance workflows for increased productivity.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+            <!-- Portfolio Section -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto px-6">
+            <h2 id="projects" class="text-3xl font-bold text-center">Selected published content</h2>
+            <div class="flex flex-wrap justify-center mt-6">
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/dc_summit.webp" alt="AWS Summit - Chicago: Key design patterns to deliver secure and high performing applications" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Summit (DC) - Design patterns to deliver secure and high performing applications</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/Summits/dcsummit2023/GBL301_KeyDesign_E1_20230602_BJEdited.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/genai_log_analysis.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS re:Invent - Leveraging generative AI to improve log analysis</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="#top" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/mitigating_ddos.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS re:Invent - Securing non-cacheable end-user workloads at the edge</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/reinvent/2021/Securing_noncacheable_enduser_workloads_at_the_edge_NET212.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/aws-black-history-month.webp" alt="AWS’s inclusive culture inspires individuality and acceptance" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">About Amazon - AWS's inclusive culture inspires individuality and acceptance</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://www.aboutamazon.com/news/aws/awss-inclusive-culture-inspires-individuality-and-acceptance" class="text-indigo-600 hover:text-indigo-800">Read the article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/wp_whitepaper.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Whitepaper - Best Practices for WordPress on AWS white paper</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://docs.aws.amazon.com/pdfs/whitepapers/latest/best-practices-wordpress/best-practices-wordpress.pdf" class="text-indigo-600 hover:text-indigo-800">Download the whitepaper</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/chicago_summit.webp" alt="AWS Summit - Chicago: Key design patterns to deliver secure and high performing applications" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Summit (Chicago) - Design patterns to build HA applications using edge services</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/Summits/awschisummit/Design_patterns_to_build_HA_applications_using_edge_services_NET301.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/aga_multi_region.webp" alt="Project 1" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS re:Invent - Using AWS Global Accelerator for multi-region applications</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-1]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/reinvent/2019/REPEAT_2_Using_AWS_Global_Accelerator_for_multi-region_applications_NET202-R2.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/edge_functions.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS re:Invent - Amazon CloudFront: CloudFront Functions or Lambda@Edge?</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/reinvent/2021/Amazon_CloudFront_CloudFront_Functions_or_LambdaEdge_REPEAT_NET211-R2.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/aga_performance.webp" alt="Project 1" class="w-full md:w-5/5 h-1/5 rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Blog - Measuring AWS Global Accelerator performance and analyzing results</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-1]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://aws.amazon.com/blogs/networking-and-content-delivery/measuring-aws-global-accelerator-performance-and-analyzing-results/" class="text-indigo-600 hover:text-indigo-800">Read the blog post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/aga_blog.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Blog - Updating AWS Global Accelerator EC2 endpoints automatically based on Auto Scaling group events</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-global-accelerator-custom-routing-accelerators/" class="text-indigo-600 hover:text-indigo-800">Read the blog post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/aga_blue_green.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Blog - Using AWS Global Accelerator to achieve blue/green deployments</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://aws.amazon.com/blogs/networking-and-content-delivery/using-aws-global-accelerator-to-achieve-blue-green-deployments/" class="text-indigo-600 hover:text-indigo-800">Read the blog post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/cdn_migration.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Webinar - Best practices for migrating content distribution to Amazon CloudFront</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=sj8jw0figsQ" class="text-indigo-600 hover:text-indigo-800">Watch the video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/custom_routing.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Blog - Introducing AWS Global Accelerator custom routing accelerators</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-aws-global-accelerator-custom-routing-accelerators/" class="text-indigo-600 hover:text-indigo-800">Read the blog post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/toronto_summit.webp" alt="AWS Summit - Chicago: Key design patterns to deliver secure and high performing applications" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">AWS Summit (Toronto) - Design patterns to build highly available applications using edge services</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://d1.awsstatic.com/events/Summits/awstorontosummit/Design_patterns_to_build_HA_applications_using_edge_services_NET301.pdf" class="text-indigo-600 hover:text-indigo-800">Download the presentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-4">
+                        <img src="assets/img/rapport_unicef_congo.webp" alt="Project 2" class="w-full h-auto rounded">
+                        <h3 class="text-xl font-bold mt-4">Rapport UNICEF - Utilisation de la téléphonie mobile pour l'amélioration de la couverture des interventions à haut impact au Congo</h3>
+                        <div class="flex justify-between mt-4">
+                            <a target="_blank" href="[live-demo-link-2]" class="text-indigo-600 hover:text-indigo-800"></a>
+                            <a target="_blank" href="https://www.jtouzi.net/wp-content/uploads/2014/02/Rapport-T4D-Draft-1-Congo-2013.pdf" class="text-indigo-600 hover:text-indigo-800">Télécharger le rapport</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-6">
+            <h2 id="contact" class="text-3xl font-bold text-center mb-6">Want to connect?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+                <div class="bg-white text-center shadow-md p-6 rounded-lg">
+                    <h1 class="text-7xl mb-4">hello@jtouzi.net</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Links -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-6 flex justify-center space-x-6">
+            <a target="_blank" href="https://x.com/jtouzi" class="hover:text-indigo-400">X</a>
+            <a target="_blank" href="https://linkedin.com/in/jtouzi" class="hover:text-indigo-400">LinkedIn</a>
+            <a target="_blank" href="https://instagram.com/jtouzi" class="hover:text-indigo-400">Instagram</a>
+            <a target="_blank" href="https://github.com/jtouzi" class="hover:text-indigo-400">GitHub</a>
+            <a target="_blank" href="https://www.tiktok.com/@jtouzi" class="hover:text-indigo-400">TikTok</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
